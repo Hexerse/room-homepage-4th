@@ -82,6 +82,7 @@ body {
 main {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  max-width: 79.4rem;
 }
 
 .section-top{
@@ -228,7 +229,7 @@ main {
   gap: 2rem;
 }
 
-@media (min-width:450px){
+@media (min-width:600px){
 .section-top{
   grid-template-columns: 2fr 1fr;
 }
